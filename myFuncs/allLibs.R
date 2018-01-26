@@ -1,0 +1,31 @@
+allLibs = function()
+{
+  try(require(text2vec) || install.packages("text2vec"))
+  try(require(data.table) || install.packages("data.table"))
+  try(require(stringr) || install.packages("stringr"))
+  try(require(tm) || install.packages("tm"))
+ # try(require(RWeka) || install.packages("RWeka"))
+  try(require(tokenizers) || install.packages("tokenizers"))
+  #try(require(slam) || install.packages("slam"))
+  try(require(wordcloud) || install.packages("wordcloud"))
+  try(require(ggplot2) || install.packages("ggplot2"))
+  try(require(ggplot2) || install.packages("tidyverse"))
+  try(require(ggplot2) || install.packages("tidytext"))
+  try(require(ggplot2) || install.packages("dplyr"))
+  
+  
+  
+  library(text2vec)
+  library(data.table)
+  library(stringr)
+  library(tm)
+  #library(RWeka)
+  library(tokenizers)
+  #library(slam)
+  library(wordcloud)
+  library(ggplot2)
+  library(dplyr)
+  library(data.table)
+  library(magrittr)
+  library(ggplot2)
+  }
