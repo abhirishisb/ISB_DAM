@@ -26,7 +26,7 @@ text.clean = function(x,userstopwords)                    # text data
   x = x[(x != "")]    # purge empty rows
   print(length(x))
   
-  x1test=data_frame(x)
+  x=data_frame(x)
   x1test$id=seq.int(nrow(x1test))
-  return(x1test)
+  return(x)
 }
