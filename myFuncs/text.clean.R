@@ -28,5 +28,5 @@ text.clean = function(x,userstopwords)                    # text data
   
   x=data_frame(x)
   x$id=seq.int(nrow(x))
-  return(x)
+  return(as.data.frame(x))
 }
